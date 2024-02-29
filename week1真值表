@@ -1,0 +1,6 @@
+List="P	Q	P∨Q	P∧Q	P→Q P←Q	P↔Q"
+print("{:|<5}".format(List))
+print('F	F	F	F	T	T	T')
+print('F	T	F	T	T	F	F')
+print('T	F	F	T	F	T	F')
+print('T	T	T	T	T	T	T')
